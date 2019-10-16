@@ -15,28 +15,19 @@ class App extends Component {
     };
     componentWillMount() {
         const { receiveData } = this.props;
-        // const user = JSON.parse(localStorage.getItem('user'));
-        // user && receiveData(user, 'auth');
-        // receiveData({a: 213}, 'auth');
-        // fetchData({funcName: 'admin', stateName: 'auth'});
         this.getClientWidth();
-        // window.onresize = () => {
-        //     console.log('屏幕变化了');
-        //     this.getClientWidth();
-        //     // console.log(document.body.clientWidth);
-        // }
     }
     componentDidMount() {
         const openNotification = () => {
             notification.open({
-              message: '博主-yezihaohao',
+              message: 'yanji',
               description: (
                   <div>
                       <p>
-                          GitHub地址： <a href="https://github.com/yezihaohao" target="_blank" rel="noopener noreferrer">https://github.com/yezihaohao</a>
+                          GitHub地址： <a href="" target="_blank" rel="noopener noreferrer">https://github.com/yezihaohao</a>
                       </p>
                       <p>
-                          博客地址： <a href="https://yezihaohao.github.io/" target="_blank" rel="noopener noreferrer">https://yezihaohao.github.io/</a>
+                          博客地址： <a href="" target="_blank" rel="noopener noreferrer">https://yezihaohao.github.io/</a>
                       </p>
                   </div>
               ),

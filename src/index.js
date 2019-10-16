@@ -48,13 +48,4 @@ if (module.hot) {
     })
 }
 
-// ReactDOM.render(
-//     <AppContainer>
-//         <Provider store={store}>
-//             <CRouter store={store} />
-//         </Provider>
-//     </AppContainer>
-//  ,
-//   document.getElementById('root')
-// );
 registerServiceWorker();
